@@ -3,7 +3,7 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
-
+import VueAnimateOnScroll from 'vue-animate-onscroll'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
@@ -23,6 +23,7 @@ Vue.use(IconsPlugin)
 import VuePageTransition from 'vue-page-transition'
  
 Vue.use(VuePageTransition)
+Vue.use(VueAnimateOnScroll)
 
 
 new Vue({

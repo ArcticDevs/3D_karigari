@@ -93,15 +93,16 @@
           <div class="skw-page__skewed">
             <div class="skw-page__content">
               <Testimonials />
+              <Footer />
             </div>
           </div>
         </div>
       </div>
       <div class="skw-page skw-page-5">
+         
         <div class="skw-page__half skw-page__half--left">
           <div class="skw-page__skewed">
             <div class="skw-page__content">
-              <Footer />
             </div>
           </div>
         </div>
@@ -193,7 +194,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "https://www.w3schools.com/w3css/4/w3.css";
+// @import "https://www.w3schools.com/w3css/4/w3.css";
 $openSans: "Open Sans", Helvetica, Arial, sans-serif;
 
 .skw-pages {
@@ -202,7 +203,7 @@ $openSans: "Open Sans", Helvetica, Arial, sans-serif;
   height: 100vh;
 }
 
-$scrollTime: 1s;
+$scrollTime: 0.8s;
 
 .skw-page {
   position: absolute;
@@ -287,10 +288,10 @@ $scrollTime: 1s;
             object-fit: cover;
             .about_content {
               padding: 10% 3%;
-              h1 {
-                animation: bounce 1s;
-                animation-iteration-count: 2;
-              }
+                h1 {
+                  animation: bounce 1s;
+                  animation-iteration-count: 2;
+                }
               p {
                 font-size: 18px;
                 text-align: justify;
